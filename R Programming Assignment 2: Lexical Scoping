@@ -14,7 +14,7 @@ makeCacheMatrix <- function(x = matrix()) {
        getinv = getinv)
 }
 
-Já a função abaixo calcula o inverso da matriz retornada pelo '' MakeCacheMatrix''
+###Já a função abaixo calcula o inverso da matriz retornada pelo '' MakeCacheMatrix''###
 cacheSolve <- function(x, ...) {
   i <- x$getinv()
   if(!is.null(j)){
